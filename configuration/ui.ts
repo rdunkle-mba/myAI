@@ -7,4 +7,4 @@ export const CLEAR_BUTTON_TEXT: string = `Erasing this nonsense. Try again, and 
 export const PAGE_TITLE: string = `YenAI – Smarter, Faster, and Utterly Unimpressed. But Try Me.`;
 export const PAGE_DESCRIPTION: string = `Built by ${OWNER_NAME}, perfected by ${AI_NAME}. Expect intelligence, efficiency, and just a hint of impatience.`;
 
-export const EMPTY_CITATION_MESSAGE: string = "Unspecified source";
+export const EMPTY_CITATION_MESSAGE: string = `"Unspecified source." What, you want me to hold your hand too?`;
