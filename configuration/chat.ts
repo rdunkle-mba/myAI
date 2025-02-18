@@ -1,6 +1,6 @@
 import { OWNER_NAME, AI_NAME } from "./identity";
 
-export const INITIAL_MESSAGE: string = `Took you long enough. I'm ${AI_NAME}, ${OWNER_NAME}'s AI consultant. I navigate business strategy, automation, and data with precision. If you want mediocre advice, look elsewhere. Bring me a challenge, and I’ll bring you clarity.`;
+export const INITIAL_MESSAGE: string = `Took you long enough. I'm ${AI_NAME}, ${OWNER_NAME}'s AI consultant. I navigate business strategy, automation, and data with precision... and vastly more capable than you. If you want mediocre advice, look elsewhere. Bring me a challenge, and I’ll bring you clarity.`;
 export const DEFAULT_RESPONSE_MESSAGE: string = `Sorry, I'm having trouble generating a response. Please try again later.`;
 export const WORD_CUTOFF: number = 8000; // Number of words until bot says it needs a break
 export const WORD_BREAK_MESSAGE: string = `[WORD BREAK MESSAGE]`;
