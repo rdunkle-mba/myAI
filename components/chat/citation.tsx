@@ -42,12 +42,12 @@ export function CitationCircle({
       </TooltipTrigger>
       <TooltipContent>
         <div className="bg-gray-900 text-white p-2 rounded-md shadow-lg flex flex-col justify-center border border-purple-500">
-          <p>
+          <p className="italic tracking-wide">
             {hasSourceUrl && (
               <Link
                 href={citation.source_url}
                 target="_blank"
-                className="text-blue-500 hover:underline text-sm"
+                className="text-purple-400 hover:text-purple-300 hover:underline transition-all"
               >
                 {citation.source_description}
               </Link>
