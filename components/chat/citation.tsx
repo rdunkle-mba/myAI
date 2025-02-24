@@ -41,7 +41,7 @@ export function CitationCircle({
         </div>
       </TooltipTrigger>
       <TooltipContent>
-        <div className="bg-white p-2 rounded-md shadow-sm flex flex-col justify-center border-[1px] border-gray-200">
+        <div className="bg-gray-900 p-2 rounded-md shadow-sm flex flex-col justify-center border-[1px] border-gray-200">
           <p>
             {hasSourceUrl && (
               <Link
