@@ -1,6 +1,6 @@
 import { LoadingIndicator, IndicatorIconType } from "@/types";
 import { motion } from "framer-motion";
-import { CrystalBall, BookA, WandSparkles, ScrollText, Skull } from "lucide-react";
+import { Brain, FileStack, FileSearch, Scan, AlertCircle } from "lucide-react";
 
 export function Pill({
   status,
@@ -19,11 +19,11 @@ export function Pill({
         isDone ? "text-gray-200" : "text-purple-400 animate-pulse"
       } ${isError ? "text-red-500" : ""}`}
     >
-      {icon === "thinking" && <CrystalBall className="w-4 h-4 animate-pulse" />}
-      {icon === "searching" && <BookA className="w-4 h-4 animate-pulse" />}
-      {icon === "understanding" && <WandSparkles className="w-4 h-4 animate-pulse" />}
-      {icon === "documents" && <ScrollText className="w-4 h-4 animate-pulse" />}
-      {icon === "error" && <Skull className="w-4 h-4 animate-pulse" />}
+      {icon === "thinking" && <Brain className="w-4 h-4 animate-pulse" />}
+      {icon === "searching" && <FileSearch className="w-4 h-4 animate-pulse" />}
+      {icon === "understanding" && <Scan className="w-4 h-4 animate-pulse" />}
+      {icon === "documents" && <FileStack className="w-4 h-4 animate-pulse" />}
+      {icon === "error" && <AlertCircle className="w-4 h-4 animate-pulse" />}
       <p>{status}</p>
     </div>
   );
