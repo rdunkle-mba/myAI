@@ -1,6 +1,6 @@
 import { LoadingIndicator, IndicatorIconType } from "@/types";
 import { motion } from "framer-motion";
-import { Brain, FileStack, FileSearch, Scan, AlertCircle } from "lucide-react";
+import { CrystalBall, BookA, WandSparkles, ScrollText, Skull } from "lucide-react";
 
 export function Pill({
   status,
