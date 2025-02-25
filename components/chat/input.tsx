@@ -60,7 +60,7 @@ export default function ChatInput({
               />
               <Button
                 type="submit"
-                className="rounded-full w-10 h-10 p-0 flex items-center justify-center"
+                className="rounded-full w-10 h-10 p-0 flex items-center justify-center bg-purple-500 hover:bg-purple-600 text-white"
                 disabled={input.trim() === "" || isLoading}
               >
                 <ArrowUp className="w-5 h-5" />
